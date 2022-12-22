@@ -1,0 +1,417 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+
+/*//////////////////////////////////////*/
+
+body {
+    font-family: ff-tisa-web-pro, serif;
+    font-size: 24px;
+    color: #302E59;
+    background-color: #A7A7B8;
+    border-bottom: 8px solid #302E59;
+}
+
+a{
+    text-decoration: none;
+    color:#302E59
+}
+
+img{
+    border: 2px solid #302E59;
+}
+
+.hero{
+    padding: 100px 150px 100px 150px;
+    text-align: end;
+}
+
+.hero-name{
+    font-size: 36px;
+    font-weight: 300;
+}
+
+ul {
+    list-style:none;
+}
+
+.header-wrapper{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.site-header{
+    position:fixed;
+    width: 90%;
+    z-index: 10;
+    top: 0;
+    left: 0;
+}
+
+.nav-list{
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: flex-end;
+    padding: 8px 16px 8px 0;
+    border-bottom: 6px double #302E59;
+    border-right: 6px double #302E59;
+    border-top: 2px solid #302E59;
+}
+
+.nav-list li{
+    font-size: 18px;
+    padding: 0 25px;
+    letter-spacing: 3px;
+}
+
+.nav-list li:hover{
+    text-decoration: underline #302E59;
+    opacity: 0.8;
+}
+
+.hero{
+    margin: 147px auto 0 0;
+}
+
+.hero-photo{
+    width: 90%;
+    margin-left: auto;
+}
+
+.about-wrapper{
+    text-align: center;
+    margin-top: 73px;
+}
+
+.main-logo{
+    background-color: #F2F2F2;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 5px;
+    margin-right: 15%;
+    margin-bottom: 32px;
+    text-align: end;
+    padding: 8px 16px 8px 0;
+    opacity: 1.0;
+    border-bottom: 2px solid #302E59;
+    border-right: 2px solid #302E59;
+    border-top: 1px solid #302E59;
+}
+
+.main-logo :hover{
+    opacity: 0.0;
+}
+
+.myphoto img{
+    width: 150px;
+    margin: 36px auto 0 auto;
+}
+
+.about-text .name{
+    font-size: 18px;
+    margin-bottom: 36px;
+}
+
+.about-text .name-jpn{
+    font-family: klee-one, sans-serif;
+    font-weight: 600px;
+}
+
+.about-text .name-eng{
+    font-weight: 300;
+}
+
+.about-text .text{
+    font-family: klee-one, sans-serif;
+    font-size: 16px;
+    text-align: justify;
+    margin-right: 30%;
+    margin-left: 30%;
+    margin-top: 16px;
+    line-height: 32px;
+}
+
+h4{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+
+.university-wrapper{
+    text-align: center;
+    margin-top: 73px;
+}
+
+.university-photo img{
+    height: 150px;
+    margin: 32px 8px 16px 8px;
+
+}
+
+.university-text{
+    font-family: klee-one, sans-serif;
+    font-size: 16px;
+    text-align: justify;
+    margin-right: 30%;
+    margin-left: 30%;
+    padding-top: 24px;
+    line-height: 32px;
+}
+
+.skills-wrapper{
+    text-align: center;
+    margin-top: 73px;
+}
+
+.skills-wrapper img{
+    width: 80px;
+    border: none;
+}
+
+.first{
+    display: flex;
+    font-size: 16px;
+    justify-content: center;
+}
+
+.second{
+    display: flex;
+    font-size: 16px;
+    justify-content: center;
+}
+
+.Chinese{
+    padding: 32px 8px 16px 8px;
+}
+.Ai{
+    padding: 32px 8px 16px 8px;
+}
+.Ps{
+    padding: 32px 8px 16px 8px;
+}
+.Xd{
+    padding: 32px 8px 16px 8px;
+}
+.Word{
+    padding: 16px 8px 0 8px;
+}
+.Excel{
+    padding: 16px 8px 0 8px;
+}
+.htmlCss{
+    padding: 16px 8px 0 8px;
+}
+.dtm{
+    padding: 16px 8px  8px;
+}
+
+h2{
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    text-align: center;
+    background-color: #9797A6;
+    width: 250px;
+    height: 35px;
+    border-radius: 20px;
+    border: 1.5px solid #302E59;
+    margin: 0 40% 0 40%;
+    padding: 6px 0 0 0;
+}
+
+.works-wrapper{
+    margin-top: 73px;
+}
+
+.webDesign-container img{
+    height: 150px;
+    margin: 16px 32px 16px 32px;
+    opacity: 1.0;
+}
+
+.bannerDesign-container img{
+    height: 150px;
+    margin: 16px 56px 16px 56px;
+    opacity: 1.0;
+}
+
+.works-wrapper .container{
+    font-size: 12px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.works-wrapper .container a :hover{
+    opacity: 0.6;
+}
+
+h3{
+    font-family: klee-one, sans-serif;
+    padding-top: 8px;
+    font-size: 16px;
+}
+
+.webDesign{
+    padding: 64px 16px 16px 16px;
+    text-align: center;
+}
+.webDesign-container{
+    display: flex;
+    justify-content: center;
+    padding-top: 24px;
+}
+
+.bannerDesign{
+    padding: 16px 16px 16px 16px;
+    text-align: center;
+}
+
+.bannerDesign-container{
+    display: flex;
+    justify-content: center;
+    padding-top: 24px;
+}
+
+
+/* .Programming{
+    padding: 24px 16px 16px 16px;
+}
+.Programming-container{
+    display: flex;
+    justify-content: center;
+    padding-top: 24px;
+}
+
+.Other{
+    padding: 24px 16px 0 16px;
+}
+.Other-container{
+    display: flex;
+    justify-content: center;
+    padding-top: 24px;
+} */
+
+hr{
+    margin-left: 22px;
+    margin-top: 16px;
+    padding: 16px 32px 16px 32px;
+    border-top: 1px solid;
+    width: 60%;
+}
+
+.contact-wrapper{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 73px;
+}
+
+.contact-wrapper img{
+    width: 50px;
+}
+
+.contact-contents{
+    padding: 64px 0 64px 0;
+}
+
+.mail-icon img{
+    border: none;
+}
