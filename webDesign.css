@@ -77,3 +77,39 @@ ul {
 .contents-bottom{
     padding: 32px 20% 64px 20%;
 }
+
+
+
+
+@media screen and (max-width: 480px) { 
+    .site-header{
+        position:fixed;
+        width: 100%;
+        z-index: 10;
+        top: 0;
+        left: 0;
+    }
+
+    .nav-list{
+        align-content: flex-end;
+        padding: 12px 4px 12px 4px;
+        border-right: none;
+        border-top: 2px solid #302E59;
+    }
+
+    .nav-list li{
+        font-size: 16px;
+        padding: 0 4px;
+        letter-spacing: 2px;
+    }
+
+    .contents-top img{
+        width: 80%;
+    }
+    
+    .contents-bottom{
+        padding-right: 17%;
+        padding-left: 17%;
+    }
+}
+

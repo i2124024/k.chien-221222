@@ -54,10 +54,10 @@ ul {
     text-align: center;
 }
 
-.contents-top ul{
+/* .contents-top ul{
     display: flex;
     justify-content: center;
-}
+} */
 
 .contents-top img{
     width: 350px;
@@ -105,7 +105,8 @@ ul {
     }
 
     .contents-top img{
-        width: 80%;
+        width: 60%;
+        margin: 0 32px 0 0 ;
     }
     
     .contents-bottom{

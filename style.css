@@ -102,6 +102,7 @@ input, select {
 /*//////////////////////////////////////*/
 
 body {
+    width: auto;
     font-family: ff-tisa-web-pro, serif;
     font-size: 24px;
     color: #302E59;
@@ -118,9 +119,10 @@ img{
     border: 2px solid #302E59;
 }
 
-.hero{
-    padding: 100px 150px 100px 150px;
-    text-align: end;
+.hero-pic img{
+    width: 100%;
+    border: none;
+    padding: 25px 0 45px 0;
 }
 
 .hero-name{
@@ -149,7 +151,7 @@ ul {
     background-color: #F2F2F2;
     display: flex;
     justify-content: flex-end;
-    padding: 8px 16px 8px 0;
+    padding: 12px 16px 12px 0;
     border-bottom: 6px double #302E59;
     border-right: 6px double #302E59;
     border-top: 2px solid #302E59;
@@ -224,7 +226,7 @@ ul {
     text-align: justify;
     margin-right: 30%;
     margin-left: 30%;
-    margin-top: 16px;
+    margin-top: 48px;
     line-height: 32px;
 }
 
@@ -235,7 +237,15 @@ h4{
     letter-spacing: 3px;
 }
 
-.university-wrapper{
+.about-text .text .PR{
+    padding-top: 32px;
+}
+
+.about-text .text h4{
+    padding-bottom: 14px;
+}
+
+/* .university-wrapper{
     text-align: center;
     margin-top: 73px;
 }
@@ -254,7 +264,7 @@ h4{
     margin-left: 30%;
     padding-top: 24px;
     line-height: 32px;
-}
+} */
 
 .skills-wrapper{
     text-align: center;
@@ -303,7 +313,7 @@ h4{
     padding: 16px 8px  8px;
 }
 
-h2{
+/* h2{
     font-size: 18px;
     font-weight: 400;
     letter-spacing: 3px;
@@ -315,7 +325,7 @@ h2{
     border: 1.5px solid #302E59;
     margin: 0 40% 0 40%;
     padding: 6px 0 0 0;
-}
+} */
 
 .works-wrapper{
     margin-top: 73px;
@@ -349,10 +359,11 @@ h3{
     font-size: 16px;
 }
 
-.webDesign{
+/* .webDesign{
     padding: 64px 16px 16px 16px;
     text-align: center;
-}
+} */
+
 .webDesign-container{
     display: flex;
     justify-content: center;
@@ -369,25 +380,6 @@ h3{
     justify-content: center;
     padding-top: 24px;
 }
-
-
-/* .Programming{
-    padding: 24px 16px 16px 16px;
-}
-.Programming-container{
-    display: flex;
-    justify-content: center;
-    padding-top: 24px;
-}
-
-.Other{
-    padding: 24px 16px 0 16px;
-}
-.Other-container{
-    display: flex;
-    justify-content: center;
-    padding-top: 24px;
-} */
 
 hr{
     margin-left: 22px;
@@ -409,9 +401,75 @@ hr{
 }
 
 .contact-contents{
-    padding: 64px 0 64px 0;
+    padding: 64px 0 80px 0;
 }
 
 .mail-icon img{
     border: none;
+}
+
+
+
+
+@media screen and (max-width: 480px) { 
+    .hero-pic img{
+        padding: 150px 0 150px 0;
+    }
+
+
+    .site-header{
+        position:fixed;
+        width: 100%;
+        z-index: 10;
+        top: 0;
+        left: 0;
+    }
+
+    .nav-list{
+        display: flex;
+        justify-content: flex-end;
+        padding: 12px 4px 12px 4px;
+        border-right: none;
+        border-top: 2px solid #302E59;
+    }
+
+    .nav-list li{
+        font-size: 16px;
+        padding: 0 15px;
+        letter-spacing: 2px;
+    }
+
+    .main-logo{
+        font-size: 16px;
+        letter-spacing: 2px;
+        margin-right: 9%;
+        margin-bottom: 32px;
+    }
+
+    .about-text .text{
+        margin-right: 17%;
+        margin-left: 17%;
+    }
+
+    h3{
+        padding-top: 8px;
+        font-size: 14px;
+    }
+
+    .webDesign-container img{
+        margin: 16px 16px 16px 16px;
+    }
+
+    .bannerDesign-container img{
+        margin: 16px 40px 16px 40px;
+    }
+
+    .contact-wrapper{
+        margin-top: 73px;
+        margin-bottom: 64px;
+    }
+
+    .contact-contents{
+        padding: 64px 0 32px 0;
+    }
 }
