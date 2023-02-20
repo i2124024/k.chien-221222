@@ -442,12 +442,49 @@ hr{
     .main-logo{
         font-size: 16px;
         letter-spacing: 2px;
-        margin-right: 9%;
+        margin-right: 0;
         margin-bottom: 32px;
     }
 
+    .myphoto img{
+        width: 150px;
+        margin-right: 7%;
+        margin-left: 17%;
+    }
+
+    .about-text .name-jpn{
+        margin-right: 7%;
+        margin-left: 17%;
+    }
+    
+    .about-text .name-eng{
+        margin-right: 7%;
+        margin-left: 17%;
+    }
+
     .about-text .text{
-        margin-right: 17%;
+        margin-right: 7%;
+        margin-left: 17%;
+    }
+
+    .skills-wrapper p{
+        align-content: center;
+    }
+
+    .skills-wrapper img{
+        width: 60px;
+        align-content: center;
+    }
+    
+    .first{
+        font-size: 14px;
+        margin-right: 7%;
+        margin-left: 17%;
+    }
+    
+    .second{
+        font-size: 14px;
+        margin-right: 7%;
         margin-left: 17%;
     }
 
@@ -456,12 +493,31 @@ hr{
         font-size: 14px;
     }
 
+    .webDesign-container{
+        margin-right: 5%;
+        margin-left: 17%;
+    }
+
     .webDesign-container img{
-        margin: 16px 16px 16px 16px;
+        margin: 16px 2px 16px 2px;
+    }
+
+    .bannerDesign-container{
+        margin-right: 5%;
+        margin-left: 17%;
     }
 
     .bannerDesign-container img{
-        margin: 16px 40px 16px 40px;
+        margin: 16px 16px 16px 16px;
+    }
+
+    hr{
+        margin-right: 5%;
+        margin-left: 8%;
+        margin-top: 12px;
+        padding: 16px 0 16px 45px;
+        border-top: 1px solid;
+        width: 60%;
     }
 
     .contact-wrapper{
@@ -470,6 +526,8 @@ hr{
     }
 
     .contact-contents{
+        margin-right: 5%;
+        margin-left: 17%;
         padding: 64px 0 32px 0;
     }
 }
